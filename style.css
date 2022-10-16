@@ -1,0 +1,183 @@
+	/* Colors and fonts */
+
+body {
+	background-color: white;
+	color: rgb(50, 50, 50);
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+h1, h2, h3 {
+	font-family: 'Montserrat', sans-serif;
+}
+h1 {
+	color: #142850;
+	font-size: 32px;
+    font-weight: bold;
+}
+h2 {
+	color:  rgb(100, 100, 100);
+	font-size: 24px;
+	font-weight: lighter;
+}
+a {
+	text-decoration: none;
+	color: #0C7B93;
+	font-weight: bold;
+}
+a:hover {
+	color: #00A8CC;
+	font-weight: bold;
+}
+
+.profilepic{
+	width:480px ;
+	height:480px;
+	text-align: center;
+	border-radius: 20%;
+}
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-one {
+	background-color: #F8F8F8;
+    padding: 15px;
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0px 5px 20px rgb(grey);
+    border-radius: 4px;
+    border-bottom: 3px solid rgba(0,0,0,0.1);
+    position: top;
+    padding-top: 2em;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1%;
+}
+
+.card-two {
+	background-color: #f4f4f4;
+    padding: 15px;
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0px 5px 20px rgb(grey);
+    border-radius: 4px;
+    border-bottom: 3px solid rgba(0,0,0,0.1);
+    position: top;
+    padding-top: 2em;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1%;
+}
+
+.card-three {
+	background-color: #e8e8e8;
+    padding: 15px;
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0px 5px 20px rgb(grey);
+    border-radius: 4px;
+    border-bottom: 3px solid rgba(0,0,0,0.1);
+    position: top;
+    padding-top: 2em;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1%;
+}
+
+.card-four {
+	background-color: #dbdcdc;
+    padding: 15px;
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0px 5px 20px rgb(grey);
+    border-radius: 4px;
+    border-bottom: 3px solid rgba(0,0,0,0.1);
+    position: top;
+    padding-top: 2em;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1%;
+}
+
+.card-five {
+	background-color: #C8C8C8;
+    padding: 15px;
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0px 5px 20px rgb(grey);
+    border-radius: 4px;
+    border-bottom: 3px solid rgba(0,0,0,0.1);
+    position: top;
+    padding-top: 2em;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1%;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: black;
+	color: white;
+	padding: 8px 30px;
+    border-radius: 4px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.btn-blue:hover {
+    background-color: #142850;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+.list-inline i {
+    font-size: 35px;
+}
+
